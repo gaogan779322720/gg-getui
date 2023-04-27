@@ -1,5 +1,5 @@
 {
-    "name": "shaozeming/laravel-getui",
+    "name": "gogo/laravel-getui",
     "description": "一个适用于laravel和lumen框架的个推push推送服务包",
     "type": "library",
     "require": {
@@ -27,8 +27,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Shao ZeMing",
-            "email": "szm19920426@gmail.com"
+            "name": "gogo",
+            "email": "779322720@qq.com"
         }
     ],
     "extra": {
