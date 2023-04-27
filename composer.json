@@ -1,0 +1,45 @@
+{
+    "name": "shaozeming/laravel-getui",
+    "description": "一个适用于laravel和lumen框架的个推push推送服务包",
+    "type": "library",
+    "require": {
+        "illuminate/container": "^5.8",
+        "php": ">=7.1.3",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "ext-openssl": "*",
+        "vlucas/phpdotenv": "^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.3",
+        "mockery/mockery": "^0.9.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "ShaoZeMing\\GeTui\\": "./src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ShaoZeMing\\GeTui\\Tests\\": "./tests/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shao ZeMing",
+            "email": "szm19920426@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ShaoZeMing\\GeTui\\GeTuiServiceProvider"
+            ],
+            "aliases": {
+                "GeTui": "ShaoZeMing\\GeTui\\Facade\\GeTui"
+            }
+        }
+    },
+    "minimum-stability":"dev"
+}
