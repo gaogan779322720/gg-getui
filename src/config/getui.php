@@ -9,10 +9,10 @@ return [
 
     'development' => [
         'client_1' => [
-            'gt_appid' => 'MjIPyYjaV99mFN7iqJTfC7',
-            'gt_appkey' => 'ksqkEEo8Oh5BvxqWAC0O84',
-            'gt_appsecret' => 'aBZtHPRURm57uGm7qXaam8',
-            'gt_mastersecret' => 'zx85PndZVf8Q1M1Iv9dEy3',
+            'gt_appid' => 'XX',
+            'gt_appkey' => 'XX',
+            'gt_appsecret' => 'XX',
+            'gt_mastersecret' => 'XX',
             'gt_domainurl' => 'http://sdk.open.api.igexin.com/apiex.htm',
         ],
         'client_2' => [
