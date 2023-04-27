@@ -1,5 +1,5 @@
 <?php
-namespace ShaoZeMing\GeTui;
+namespace Gogo\GeTui;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Foundation\Application as LaravelApplication;
@@ -7,7 +7,7 @@ use Laravel\Lumen\Application as LumenApplication;
 
 /**
  * Class GeTuiServiceProvider
- * @package ShaoZeMing\GeTui
+ * @package Gogo\GeTui
  */
 class GeTuiServiceProvider extends ServiceProvider
 {

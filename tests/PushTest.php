@@ -6,11 +6,11 @@
  * $Id: TestSms.php 2017-08-17 上午10:08 $
  */
 
-namespace ShaoZeMing\GeTui\Test;
+namespace Gogo\GeTui\Test;
 require_once dirname(__FILE__) . '/../src/getui/IGt.Push.php';
 
 use PHPUnit\Framework\TestCase;
-use ShaoZeMing\GeTui\GeTuiService;
+use Gogo\GeTui\GeTuiService;
 
 
 class PushTest extends TestCase

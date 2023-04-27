@@ -1,6 +1,6 @@
 <?php
 
-namespace ShaoZeMing\GeTui;
+namespace Gogo\GeTui;
 use Illuminate\Support\Collection;
 
 //use Illuminate\Support\Facades\Log;

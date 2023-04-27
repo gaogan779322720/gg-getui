@@ -16,12 +16,12 @@
     },
     "autoload": {
         "psr-4": {
-            "ShaoZeMing\\GeTui\\": "./src"
+            "Gogo\\GeTui\\": "./src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "ShaoZeMing\\GeTui\\Tests\\": "./tests/"
+            "Gogo\\GeTui\\Tests\\": "./tests/"
         }
     },
     "license": "MIT",
@@ -34,10 +34,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "ShaoZeMing\\GeTui\\GeTuiServiceProvider"
+                "Gogo\\GeTui\\GeTuiServiceProvider"
             ],
             "aliases": {
-                "GeTui": "ShaoZeMing\\GeTui\\Facade\\GeTui"
+                "GeTui": "Gogo\\GeTui\\Facade\\GeTui"
             }
         }
     },

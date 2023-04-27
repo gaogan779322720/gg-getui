@@ -4,14 +4,14 @@
 
 
 ---
-[![](https://travis-ci.org/ShaoZeMing/laravel-getui.svg?branch=master)](https://travis-ci.org/ShaoZeMing/laravel-getui) 
-[![](https://img.shields.io/packagist/v/ShaoZeMing/laravel-getui.svg)](https://packagist.org/packages/shaozeming/laravel-getui) 
-[![](https://img.shields.io/packagist/dt/ShaoZeMing/laravel-getui.svg)](https://packagist.org/packages/stichoza/shaozeming/laravel-getui)
+[![](https://travis-ci.org/Gogo/laravel-getui.svg?branch=master)](https://travis-ci.org/Gogo/laravel-getui) 
+[![](https://img.shields.io/packagist/v/Gogo/laravel-getui.svg)](https://packagist.org/packages/Gogo/laravel-getui) 
+[![](https://img.shields.io/packagist/dt/Gogo/laravel-getui.svg)](https://packagist.org/packages/stichoza/Gogo/laravel-getui)
 
 ## 安装
 
 ```shell
-$ composer require shaozeming/laravel-getui -v
+$ composer require Gogo/laravel-getui -v
 ```
 ### Laravel
 
@@ -22,14 +22,14 @@ $ composer require shaozeming/laravel-getui -v
 
     'providers' => [
         //...
-        ShaoZeMing\GeTui\GeTuiServiceProvider::class,    //This is default in laravel 5.5
+        Gogo\GeTui\GeTuiServiceProvider::class,    //This is default in laravel 5.5
     ],
 ```
 
 And publish the config file: 
 
 ```shell
-$ php artisan vendor:publish --provider=ShaoZeMing\\GeTui\\GeTuiServiceProvider
+$ php artisan vendor:publish --provider=Gogo\\GeTui\\GeTuiServiceProvider
 ```
 
 if you want to use facade mode, you can register a facade name what you want to use, for example `GeTui`: 
@@ -38,7 +38,7 @@ if you want to use facade mode, you can register a facade name what you want to 
 // config/app.php
 
     'aliases' => [
-        'GeTui' => ShaoZeMing\GeTui\Facade\GeTui::class,   //This is default in laravel 5.5
+        'GeTui' => Gogo\GeTui\Facade\GeTui::class,   //This is default in laravel 5.5
     ],
 ```
 
@@ -46,9 +46,9 @@ if you want to use facade mode, you can register a facade name what you want to 
 
 - 在 bootstrap/app.php 中 82 行左右：
 ```
-$app->register(ShaoZeMing\GeTui\GeTuiServiceProvider::class);
+$app->register(Gogo\GeTui\GeTuiServiceProvider::class);
 ```
-将 `vendor/ShaoZeMing/laravel-getui/src/config/getui.php` 拷贝到项目根目录`/config`目录下，并将文件名改成`getui.php`。
+将 `vendor/Gogo/laravel-getui/src/config/getui.php` 拷贝到项目根目录`/config`目录下，并将文件名改成`getui.php`。
 
 ### configuration 
 

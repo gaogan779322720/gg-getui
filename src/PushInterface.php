@@ -1,5 +1,5 @@
 <?php
-namespace ShaoZeMing\GeTui;
+namespace Gogo\GeTui;
 /**
  *  PushInterface.php
  *
